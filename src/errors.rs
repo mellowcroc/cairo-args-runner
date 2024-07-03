@@ -1,4 +1,4 @@
-use cairo_felt::Felt252;
+use starknet_types_core::felt::Felt as Felt252;
 use thiserror::Error;
 
 use crate::utils::parse::SierraParseError;

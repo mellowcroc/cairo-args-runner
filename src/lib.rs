@@ -72,9 +72,9 @@
 //! These examples demonstrate various ways to use `cairo_args_runner` to execute Cairo 1 programs with different types of arguments,
 //! aiding users in understanding and utilizing the utility effectively.
 
-pub use cairo_felt::Felt252;
 pub use cairo_lang_runner::Arg;
 use errors::SierraRunnerError;
+use starknet_types_core::felt::Felt as Felt252;
 use utils::parse::SingleFileParser;
 
 pub use crate::utils::deserialization::{Args, ArgsError};

@@ -1,8 +1,8 @@
-use cairo_felt::Felt252;
 use cairo_lang_runner::{Arg, SierraCasmRunner, StarknetState};
 use cairo_lang_sierra::program::ProgramArtifact;
 use cairo_lang_starknet::contract::ContractInfo;
 use cairo_lang_utils::ordered_hash_map::OrderedHashMap;
+use starknet_types_core::felt::Felt as Felt252;
 
 use crate::errors::SierraRunnerError;
 
